@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Form-Validation</title>
+ </head>
+ <body>
+ <p>What type of car would you like to buy?</p>
+ <input type="radio" id="Four" name="ChooseOne" value="Proton"><label
+for="Four">Proton </label> <input type="radio" id="Four1" name="ChooseOne"
+value="Honda"><label for="Four1">Honda</label> <input type="radio" id="Four2"
+name="ChooseOne" value="Ferri"><label for="Four2">Ferri</label> <input type="radio"
+id="Four3" name="ChooseOne" value="Ford"><label for="Four3">Ford</label>
+ <p>What color do you want in your car?</p>
+ <div><label>Choose One </label>
+<select>
+<option value="violet">violet</option>
+<option value="blue">blue</option>
+<option value="blue-violet">blue-violet</option>
+</select>
+ </div><br>
+ <label for="One">Others</label> <input type="text" id="One" name="Others">
+ <p>Enter other specification for your preferred car:</p>
+ <div>
+<textarea></textarea>
+ </div>
+ <p>Tell us how to get in touch with you:</p>
+ <label for="One">Name : </label> <input type="text" id="One"
+name="Name"><br><br>
+ <label for="One">Telephone : </label> <input type="text" id="One"
+name="Name"><br><br>
+ <label for="One">Email : </label> <input type="text" id="One"
+name="Name"><br><br>
+PADMASREE B M
+19CSE015
+ <input type="checkbox" id="Fiv1e" name="ChooseMany" value="Please contact me as
+soon as possible"><label for="Fiv1e">Please contact me as soon as possible</label>
+ <p>My Mail : <a href="mailto:abc@gmail.com" style="color: blue">
+abc@gmail.com</a></p>
+ <input type="submit" value="Submit" formtarget="_blank"> <input
+type="submit" value="Clear" formtarget="_blank"><br><br>
+ <a href="mailto:abc@gmail.com" style="color:blueviolet">Back to mail page</a>
+ </body>
+</html>
